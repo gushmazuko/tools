@@ -29,7 +29,9 @@ def banner():
 
 
 
-This script  is a PowerShell Command & Script base64 Converter.
+This script  is a PowerShell Command & Script base64 Converter. 
+Written by [Mister Bert0ni|DarkNode] <Corp Of Hack Team> <CodeBy Team>
+Mod by ~GushmazukO~
 ===============================================================================
 ""","cyan")
 
